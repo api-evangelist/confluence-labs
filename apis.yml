@@ -1,23 +1,68 @@
 aid: confluence-labs
 name: Confluence Labs
-description: Confluence Labs is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Confluence Labs is a San Francisco AI research company (Y Combinator Winter 2026, backed by
+  Paul Graham) focused on learning efficiency — building machine learning systems that learn from
+  limited data and few experiments. Founded by Brent Burdick and Niranjan Baskaran, the lab works
+  on hypothesis generation (using AI to design maximally informative experiments) and data-efficient
+  modeling (combining large language models with discrete program search) to accelerate breakthroughs
+  in data-sparse domains such as drug design, materials engineering, hardware, and physics discovery.
+  The team reported state-of-the-art performance on the ARC-AGI-2 reasoning benchmark using LLM-driven
+  program synthesis and open-sourced their solver on GitHub. Confluence Labs currently publishes no
+  public API, developer portal, SDK, or OpenAPI surface; this profile captures verified company identity
+  for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/confluence-labs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://confluence.sh/logo-accent-dark-512.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+- paul-graham
+x-yc-batch: W2026
+x-founders:
+- Brent Burdick
+- Niranjan Baskaran
+x-tier: identity
+x-tier-reason: research-lab-no-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- AI Research
+- Program Synthesis
+- Data Efficiency
 apis: []
+common:
+- type: Website
+  url: https://confluence.sh
+  name: Confluence Labs
+- type: Blog
+  url: https://confluence.sh/blog/introducing-confluence-labs
+  name: Introducing Confluence Labs — SOTA on ARC-AGI-2
+- type: GitHubOrganization
+  url: https://github.com/confluence-labs
+  name: confluence-labs on GitHub
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
