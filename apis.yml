@@ -35,7 +35,7 @@ x-founders:
 - Niranjan Baskaran
 x-tier: identity
 x-tier-reason: research-lab-no-api
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
