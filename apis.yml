@@ -52,7 +52,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - AI Research
 - Program Synthesis
 - Data Efficiency
@@ -63,6 +63,7 @@ tags_raw:
 - AI Research
 - Program Synthesis
 - Data Efficiency
+- Machine-Learning
 apis: []
 common:
 - type: Website
